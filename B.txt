@@ -1,0 +1,25 @@
+size value: 1000
+  result:
+            sort():    0.0000seconds
+  insertion_sort():    0.0100seconds
+
+size value: 10000
+  result:
+            sort():    0.0000seconds
+  insertion_sort():    1.3300seconds
+
+size value: 100000
+  result:
+            sort():    0.0400seconds
+  insertion_sort():  128.0600seconds
+
+size value: 1000000
+  result:
+            sort():    0.5300seconds
+  insertion_sort():12816.1500seconds
+
+take n=1000000 for example
+  for sort(): O(nlogn)
+    6*10^6 ~= 10^7
+  for insertion_sort():O(n^2)
+    10^12
